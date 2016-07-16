@@ -1,0 +1,23 @@
+{
+  "name": "rename",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "josecabrerajr7 <jcdeveloper7@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.7",
+    "angular-ui-router": "^0.3.1",
+    "bootstrap": "^3.3.6"
+  }
+}
