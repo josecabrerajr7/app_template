@@ -1,3 +1,22 @@
 body, * {
 	
 }
+.row {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+@media(max-width:767px){
+
+}
+@media(min-width:768px){
+	.navbar {
+    	border-radius: 0px;
+	}
+}
+@media(min-width:992px){
+
+}
+@media(min-width:1200px){
+
+}

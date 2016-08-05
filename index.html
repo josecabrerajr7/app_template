@@ -3,14 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<title>App</title>
+	<link rel="stylesheet" href="public/css/vendors.css">
+	<link rel="stylesheet" href="public/css/styles.css">
+	
 </head>
 <body>
 	<div ng-include="'public/views/includes/header.html'"></div>
-
 	
+	<div ui-view></div>
+	
+	<div ng-include="'public/views/includes/footer.html'"></div>
 
-	<link rel="stylesheet" href="public/css/vendors.css">
-	<link rel="stylesheet" href="public/css/styles.css">
 	<script src="public/js/vendors.js"></script>
 	<script src="public/js/app.js"></script>
 </body>

@@ -1,3 +1,5 @@
-# 1st - requirements npm, gulp, bower, git, nodejs installed on computer
-# 2nd - run "npm install" and "bower install" in directory from command line to install bower_components and node_modules
-# 3rd - last type "gulp" in command line to see public folder and edit gulpfile to your liking for files structure
+#mongodb needs to be install and running when viewing on localhost
+#type node app.js to run server and open a diffrent command prompt and run gulp to put files togeather
+#files to check
+#app/modules/anime and there is only two files controller and html
+#server folder models folder is mongoose schema and routes folder is my express 
